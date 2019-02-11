@@ -19,7 +19,7 @@ import static com.pchudzik.blog.example.spring.internals.beanpostprocessor.Measu
 import static org.apache.commons.lang3.StringUtils.defaultIfBlank;
 
 @Component
-class MeassuringBeanPostProccesor implements BeanPostProcessor {
+class MeasuringBeanPostProcessor implements BeanPostProcessor {
 
     @Override
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
